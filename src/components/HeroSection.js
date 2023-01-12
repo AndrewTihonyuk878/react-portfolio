@@ -120,7 +120,7 @@ const HeroStyles = styled.div`
       margin-top: 3rem;
     }
     .hero__social {
-      left: 0px;
+      left: 5px;
       bottom: -15%;
       width: 20px;
       .hero__social__indicator {
@@ -135,16 +135,16 @@ const HeroStyles = styled.div`
       .hero__social__text {
         ul {
           li {
+            margin-bottom: 0;
             a {
-              font-size: 1.2rem;
-              margin-bottom: 1rem;
+              padding: 0px;
             }
           }
         }
       }
     }
     .hero__scrollDown {
-      right: 0;
+      right: 5px;
       width: 20px;
       gap: 1rem;
       p {

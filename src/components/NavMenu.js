@@ -28,9 +28,6 @@ const NavStyles = styled.nav`
       color: var(--gray-1);
       outline: none;
       transition: 0.3s ease color;
-      &:hover {
-        color: var(--deep-dark);
-      }
     }
     .active {
       text-decoration: underline;
@@ -83,7 +80,10 @@ const NavStyles = styled.nav`
       li {
         display: block;
         margin-bottom: 1rem;
-        color: var(--white);
+      }
+      .active {
+        text-decoration: underline;
+        color: var(--dark-bg);
       }
     }
   }
