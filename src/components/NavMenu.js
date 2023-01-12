@@ -83,6 +83,7 @@ const NavStyles = styled.nav`
       li {
         display: block;
         margin-bottom: 1rem;
+        color: var(--white);
       }
     }
   }
