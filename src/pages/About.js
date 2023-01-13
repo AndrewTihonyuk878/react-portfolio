@@ -60,6 +60,10 @@ const AboutPageStyles = styled.div`
   }
   .about__info__item {
     margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
   }
   .about__info__heading {
     font-size: 3.6rem;
@@ -130,7 +134,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="Varsity"
-                items={['Igor Sikorsky Kyiv Polytechnic Institute']}
+                items= {['Igor Sikorsky Kyiv Polytechnic Institute']}
               />
             </div>
             <div className="about__info__item">
@@ -138,11 +142,11 @@ export default function About() {
 
               <AboutInfoItem
                 title="Technologies"
-                items={['HTML', 'CSS', 'SASS/SCSS', 'React', 'Redux', 'JSON', 'AJAX', 'API', 'Redux-thunk']}
+                items={['HTML', 'CSS', 'SASS/SCSS/LESS', 'REACT', 'REDUX', 'AJAX', 'AXIOS', 'API', 'REDUX-THUNK', 'REDUX-TOOLKIT', 'REACT-ROUTER']}
               />
               <AboutInfoItem
                 title="Tools"
-                items={['Webpack', 'Gulp', 'Git', 'npm', 'Photoshop', 'Figma', 'DevTools']}
+                items={['WEBPACK', 'GULP', 'GIT', 'NPM', 'PHOTOSHOP', 'FIGMA', 'DEVTOOLS', 'BOOTSTRAP', 'JQUERY']}
               />
               <AboutInfoItem
                 title="Languages"

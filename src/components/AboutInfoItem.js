@@ -8,22 +8,26 @@ const AboutItemStyles = styled.div`
   justify-content: flex-start;
   position: relative;
   gap: 5rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
   .title {
     font-size: 2.4rem;
   }
   .items {
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 1.5rem;
-    position: absolute;
     left: 18rem;
+    position: absolute;
   }
   .item {
     background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 8px;
+
     :hover {
-      transform: scale(1.05);
+      opacity: .9;
       transition: all .3s;
     }
   }
@@ -52,7 +56,7 @@ export default function AboutInfoItem({
       <div className="items">
         {items.map((item, index) => (
           <div className="item" key={index}>
-            <PText>{item}</PText>
+            <PText className='tech'>{item}</PText>
           </div>
         ))}
       </div>
