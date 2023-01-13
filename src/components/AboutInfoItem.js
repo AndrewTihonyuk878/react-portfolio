@@ -13,6 +13,7 @@ const AboutItemStyles = styled.div`
     font-size: 2.4rem;
   }
   .items {
+    padding: 5rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;

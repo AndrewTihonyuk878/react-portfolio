@@ -63,7 +63,7 @@ const AboutPageStyles = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
+    position: relative;
   }
   .about__info__heading {
     font-size: 3.6rem;
@@ -134,7 +134,7 @@ export default function About() {
 
               <AboutInfoItem
                 title="Varsity"
-                items= {['Igor Sikorsky Kyiv Polytechnic Institute']}
+                items= {['Igor Sikorsky Kyiv Polytechnic Institute', "Master's degree", 'Automation and Computer-integrated Technologies']}
               />
             </div>
             <div className="about__info__item">
