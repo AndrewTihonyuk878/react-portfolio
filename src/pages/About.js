@@ -70,7 +70,7 @@ const AboutPageStyles = styled.div`
     text-transform: uppercase;
   }
   @media only screen and (max-width: 768px) {
-    padding: 10rem 0;
+    padding: 5rem 0;
     .top-section {
       flex-direction: column;
       gap: 5rem;
@@ -80,6 +80,12 @@ const AboutPageStyles = styled.div`
     }
     .about__heading {
       font-size: 2.8rem;
+    }
+    .about__info__items {
+      margin-top: 10rem;
+    }
+    .about__info__item {
+      margin-bottom: 5rem;
     }
     .about__info__heading {
       font-size: 3rem;
