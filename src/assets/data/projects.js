@@ -2,33 +2,24 @@ import { v4 as uuidv4 } from 'uuid';
 import EmployeersCount from '../images/EmployeersCount.PNG';
 import MarvelSetvice from '../images/MarvelService.PNG';
 import Food from '../images/food_new.png';
-import Picture from '../images/picture.png';
 import PortfolioStarter from '../images/portfolio_starter.png';
 import Pulse from "../images/pulse.png";
 import Windows from "../images/windows.png";
 import Panel from "../images/admin-panel.png";
+import Portret from '../images/portret.png';
+import PizzaReact from '../images/reactPizza.png'
 
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'Pulse',
-    img: Pulse,
-    description: 'This is a project where I practiced with modals, forms and tabs. Also used in it slick-slider.',
-    technologies: 'HTML, CSS, JavaScript, Jquery',
-    tools: 'NPM, Git',
-    url: 'https://andrewtihonyuk878.github.io/pulse/',
-    source: 'https://github.com/AndrewTihonyuk878/pulse',
-  },
-  {
-    id: uuidv4(),
-    name: 'PortfolioStarter',
-    img: PortfolioStarter,
-    description: 'One type of portfolio site.',
-    technologies: 'HTML, CSS, SASS, JavaScript',
-    tools: 'Gulp, NPM, Git',
-    url: 'https://andrewtihonyuk878.github.io/portfolio_starter/',
-    source: 'https://github.com/AndrewTihonyuk878/portfolio_starter',
+    name: 'Pizza-react',
+    img: PizzaReact,
+    description: 'An application in which we can filter, add to cart, delete, choose size and type, etc..',
+    technologies: 'HTML, CSS, SCSS, AXIOS React, React Router, Redux-Toolkit, mockApi, TypeScript',
+    tools: 'Webpack, NPM, Git, Figma, DevTools',
+    url: 'https://react-pizza-brown.vercel.app/',
+    source: 'https://github.com/AndrewTihonyuk878/react-pizza',
   },
   {
     id: uuidv4(),
@@ -42,7 +33,37 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Windows',
+    name: 'EDA',
+    img: EmployeersCount,
+    description: 'Employees data arrangement (EDA) web app. There are the features of changing and filtering the employees data in the app.',
+    technologies: 'HTML, CSS, SCSS, React, Redux',
+    tools: 'Webpack, NPM, Git',
+    url: 'https://employers-one.vercel.app/',
+    source: 'https://github.com/AndrewTihonyuk878/employers',
+  },
+  {
+    id: uuidv4(),
+    name: 'Portrait on canvas',
+    img: Portret,
+    description: 'Portrait on canvas - it was an interesting project on vanilla JavaScript, in which I got good practical experience.',
+    technologies: 'HTML, CSS, SASS, JavaScript',
+    tools: 'Gulp, NPM, Git',
+    url: 'https://andrewtihonyuk878.github.io/picture/',
+    source: 'https://github.com/AndrewTihonyuk878/picture',
+  },
+  {
+    id: uuidv4(),
+    name: 'PortfolioStarter',
+    img: PortfolioStarter,
+    description: 'One type of portfolio site.',
+    technologies: 'HTML, CSS, SASS, JavaScript',
+    tools: 'Gulp, NPM, Git',
+    url: 'https://andrewtihonyuk878.github.io/portfolio_starter/',
+    source: 'https://github.com/AndrewTihonyuk878/portfolio_starter',
+  },
+  {
+    id: uuidv4(),
+    name: 'Balcony glazing',
     img: Windows,
     description: 'Modern landing page',
     technologies: 'HTML, CSS, SCSS, JavaScript, jQuery',
@@ -52,13 +73,13 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'EDA',
-    img: EmployeersCount,
-    description: 'Employees data arrangement (EDA) web app. There are the features of changing and filtering the employees data in the app.',
-    technologies: 'HTML, CSS, SCSS, React',
-    tools: 'Webpack, NPM, Git',
-    url: 'https://employers-one.vercel.app/',
-    source: 'https://github.com/AndrewTihonyuk878/employers',
+    name: 'Pulse',
+    img: Pulse,
+    description: 'This is a project where I practiced with modals, forms and tabs. Also used in it slick-slider.',
+    technologies: 'HTML, CSS, JavaScript, Jquery',
+    tools: 'NPM, Git',
+    url: 'https://andrewtihonyuk878.github.io/pulse/',
+    source: 'https://github.com/AndrewTihonyuk878/pulse',
   },
   {
     id: uuidv4(),
