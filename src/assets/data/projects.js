@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import EmployeersCount from '../images/EmployeersCount.PNG';
+import EmployeersCount from '../images/employees.png';
 import MarvelSetvice from '../images/MarvelService.PNG';
 import Food from '../images/food_new.png';
 import PortfolioStarter from '../images/portfolio_starter.png';
@@ -16,7 +16,7 @@ const projects = [
     name: 'Pizza-react',
     img: PizzaReact,
     description: 'An application in which we can filter, add to cart, delete, choose size and type, etc..',
-    technologies: 'HTML, CSS, SCSS, AXIOS React, React Router, Redux-Toolkit, mockApi, TypeScript',
+    technologies: 'HTML, CSS, SCSS, TypeScript, React, React-router-dom, Redux-Toolkit, AXIOS, mockApi',
     tools: 'Webpack, NPM, Git, Figma, DevTools',
     url: 'https://react-pizza-brown.vercel.app/',
     source: 'https://github.com/AndrewTihonyuk878/react-pizza',
