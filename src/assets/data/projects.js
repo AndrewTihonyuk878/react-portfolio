@@ -15,7 +15,7 @@ const projects = [
     id: uuidv4(),
     name: 'Pizza-react',
     img: PizzaReact,
-    description: 'An application in which we can filter, add to cart, delete, choose size and type, etc..',
+    description: 'This is a full-fledged web application, in the form of an online store, for choosing pizza. Where we can filter our products, add to cart, delete them, select the size, type, etc.. Developed using: TypeScript, Redux, React, React-router-dom, Redux-Toolkit, AXIOS, mockApi, and other technologies ..',
     technologies: 'HTML, CSS, SCSS, TypeScript, React, React-router-dom, Redux-Toolkit, AXIOS, mockApi',
     tools: 'Webpack, NPM, Git, Figma, DevTools',
     url: 'https://react-pizza-brown.vercel.app/',
