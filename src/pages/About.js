@@ -119,12 +119,8 @@ export default function About() {
               <h2 className="about__heading">A Front-end Developer</h2>
               <div className="about__info">
                 <PText>
-                  ... I’m from Ukraine. Now I am in Wroclaw, Poland. I have been living here for 3 years. I am a quite active, open and positive person. I have well-developed analytical and critical thinking. Stress-resistant, persistent, adaptable to new challenges.
-                  I learn quickly, look for the necessary information and find a way out of various situations.
-                  I know how to find a common language with different people, I am not afraid to take responsibility.
-                  I have a high level of self-organization and self-development.
-                  I believe that our whole life is a constant continuous development. Therefore, I made my choice.
-                  And you ? <br/><br/>
+                  ... I’m from Ukraine. Now I am in Wroclaw. I have been living here for 3 years.I’m a professional results-oriented Front-end developer, with a successful record of cross-browser semantic adaptive layout. Flexibility is one of my main features that is why I can adapt to any working conditions. I have about 2 years of freelance experience, creating responsive websites and applications for clients by using HTML, CSS, JavaScript, REACT, REDUX, TypeScript, and Bootstrap.I am a quiet, active, open, and motivated individual, due to my strong analytical and critical thinking I can find simple solutions to complex problems. I have a high level of self-organization and self-development. I know how to find a common language with different people, and I am not afraid to take responsibility. I believe that our whole life is a <b>constant continuous development</b>.Therefore I made my choice.
+                  <br/>And you ? <br/><br/>
                   To find more information <Emoji label="cool" symbol="👇" />
                 </PText>
               </div>
