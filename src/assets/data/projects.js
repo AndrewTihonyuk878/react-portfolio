@@ -7,7 +7,8 @@ import Pulse from "../images/pulse.png";
 import Windows from "../images/windows.png";
 import Panel from "../images/admin-panel.png";
 import Portret from '../images/portret.png';
-import PizzaReact from '../images/reactPizza.png'
+import PizzaReact from '../images/reactPizza.png';
+import Chess from '../images/chess.png';
 
 
 const projects = [
@@ -20,6 +21,16 @@ const projects = [
     tools: 'Webpack, NPM, Git, Figma, DevTools',
     url: 'https://react-pizza-brown.vercel.app/',
     source: 'https://github.com/AndrewTihonyuk878/react-pizza',
+  },
+  {
+    id: uuidv4(),
+    name: 'Chess-react',
+    img: Chess,
+    description: 'Chess. Object oriented programming using ReactJS and TypeScript',
+    technologies: 'HTML, SCSS, TypeScript, React, Redux',
+    tools: 'Webpack, NPM, Git, Figma, DevTools',
+    url: 'https://react-chess-ecru.vercel.app/',
+    source: 'https://github.com/AndrewTihonyuk878/react-chess',
   },
   {
     id: uuidv4(),
