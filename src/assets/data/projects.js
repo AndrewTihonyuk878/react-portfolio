@@ -101,17 +101,7 @@ const projects = [
     tools: 'Gulp, NPM, Git, Webpack, Json-server, Bundle.js',
     url: 'https://andrewtihonyuk878.github.io/food_new/',
     source: 'https://github.com/AndrewTihonyuk878/food_new',
-  },
-  {
-    id: uuidv4(),
-    name: "Admin-panel",
-    img: Panel,
-    description: 'This is an admin panel that deletes, adds and filters users in the database in real time.',
-    technologies: 'HTML, CSS, SASS, React, Redux, Redux-thunk, Redux-Toolkit',
-    tools: 'Webpack, NPM, Git',
-    url: 'https://admin-panel-kappa-olive.vercel.app/',
-    source: 'https://github.com/AndrewTihonyuk878/admin_panel',
-  },
+  }
   
 ];
 
